@@ -472,7 +472,10 @@ footer .cls-logo {
 	min-height: 584px;
 	border-radius: 4px;
 	transform: translate(-50%, -50%);
-	box-shadow:0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 
+		0px 1px 1px rgba(0, 0, 0, 0.14), 
+		0px 1px 3px rgba(0, 0, 0, 0.12), 
+		0px 2px 1px rgba(0, 0, 0, 0.2);
 	background-color: #fcfcfc;
 	padding: 72px 24px;
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -490,7 +493,18 @@ footer .cls-logo {
 	justify-content: center;
     background-color: #e7e9fc;
 	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0;
+	cursor: pointer;
+	transition: 
+		background-color 
+			250ms cubic-bezier(0.4, 0, 0.2, 1), 
+		border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.btn-close:hover,
+.btn-close:focus {
+	background-color: #404bbf;
+	border: none;
 }
 
 .title-modal {
@@ -523,6 +537,8 @@ footer .cls-logo {
 	top: 50%;
 	transform: translateY(-50%);
 	left: 16px;
+	transition: 
+		fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .inp-svg {
