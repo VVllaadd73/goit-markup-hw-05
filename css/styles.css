@@ -334,10 +334,6 @@ footer .cls-logo {
 	margin-left: 80px;
 }
 
-.row-i-b {
-	display: flex;
-}
-
 .cls-input {
 	width: 264px;
 	height: 40px;
@@ -435,6 +431,11 @@ footer .cls-logo {
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-form {
+	display: flex;
+	gap: 24px;
+}
+
 .backdrop {
 	position: fixed;
 	top: 0;
@@ -499,5 +500,5 @@ footer .cls-logo {
 	position: absolute;
 	width: 18px;
 	height: 18px;
-	
+
 }
