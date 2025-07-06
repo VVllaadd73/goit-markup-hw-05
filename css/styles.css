@@ -466,6 +466,7 @@ footer .cls-logo {
 
 .modal {
 	position: absolute;
+	padding: 72px 24px 24px 24px;
 	top: 50%;
 	left: 50%;
 	width: 408px;
@@ -505,6 +506,7 @@ footer .cls-logo {
 .btn-close:focus {
 	background-color: #404bbf;
 	border: none;
+	fill: #ffffff;
 }
 
 .title-modal {
@@ -553,4 +555,10 @@ footer .cls-logo {
 	background-color: transparent;
 	outline: transparent;
 	padding-left: 38px;
+	transition:
+		border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input:hover {
+	border-color: #4D5AE5;
 }
