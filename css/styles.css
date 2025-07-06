@@ -464,7 +464,6 @@ footer .cls-logo {
 
 .backdrop.is-open {
 	opacity: 1;
-	visibility: visible;
 	pointer-events: auto;
 }
 
