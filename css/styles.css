@@ -454,7 +454,6 @@ footer .cls-logo {
 	background-color:
 		rgba(46, 47, 66, 0.4);
 	opacity: 0;
-	visibility: hidden;
 	pointer-events: none;
 	transition: 
 		opacity 150ms cubic-bezier
