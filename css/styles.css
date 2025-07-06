@@ -476,7 +476,8 @@ footer .cls-logo {
 	min-height: 584px;
 	border-radius: 4px;
 	transform: translate(-50%, -50%);
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.21);
+	box-shadow: 0 1px 1px 0 
+		rgba(0, 0, 0, 0.21);
 	background-color: #fcfcfc;
 	padding: 72px 24px;
 }
