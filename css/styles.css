@@ -353,7 +353,7 @@ footer .cls-logo {
 }
 
 .cls-input::placeholder {
-	color #ffffff;
+	color: #ffffff;
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 12px;
@@ -464,6 +464,7 @@ footer .cls-logo {
 
 .backdrop.is-open {
 	opacity: 1;
+	visibility: visible;
 	pointer-events: auto;
 }
 
