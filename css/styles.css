@@ -652,6 +652,13 @@ footer .cls-logo {
 	margin: 0 auto;
 }
 
+.btn-send:hover,
+.btn-send:focus {
+	background-color: #404bbf;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 .accept-icon {
     fill: transparent;
     transition: fill 250mc cubic-bezier(0.4, 0, 0.2, 1);
