@@ -620,3 +620,13 @@ footer .cls-logo {
 		justify-content: center;
 		fill: transparent;
 }
+
+.accept-flag:checked+.label-accept-flag {
+	background-color: #404bbf;
+	border: none;
+	fill: #F4F4FD;
+}
+
+.label-accept-link {
+	color: #4d5ae5;
+}
