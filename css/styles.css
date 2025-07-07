@@ -625,11 +625,15 @@ footer .cls-logo {
 		fill: transparent;
 }
 
-.accept-flag:checked+.label-accept-icon {
-	background-color: #404bbf;
+
+
+.accept-flag:checked+.label-accept-label .label-accept-icon
+{
+	background-color: #404BBF;
 	border: none;
 	fill: #F4F4FD;
 }
+
 
 .label-accept-link {
 	color: #4d5ae5;
