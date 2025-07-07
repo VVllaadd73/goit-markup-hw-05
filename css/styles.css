@@ -590,3 +590,8 @@ footer .cls-logo {
 .cls-textarea:focus {
 	border-color: #4D5AE5;
 }
+
+.form-text-accept {
+	margin-bottom: 24px;
+	
+}
