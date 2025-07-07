@@ -621,7 +621,7 @@ footer .cls-logo {
 		fill: transparent;
 }
 
-.accept-flag:checked+.label-accept-flag {
+.accept-flag:checked+.label-accept-icon {
 	background-color: #404bbf;
 	border: none;
 	fill: #F4F4FD;
