@@ -664,7 +664,6 @@ footer .cls-logo {
 
 
 .accept-icon {
-    fill: transparent;
     transition: fill 250mc cubic-bezier(0.4, 0, 0.2, 1);
 }
 
